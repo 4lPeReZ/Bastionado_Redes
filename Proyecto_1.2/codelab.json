@@ -4,9 +4,9 @@
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
   "updated": "2022-10-17T12:00:03+02:00",
-  "id": "BRS-proyecto-1.1",
+  "id": "BRS-proyecto-1.2",
   "duration": 0,
-  "title": "Proyecto 1.1: Protección de la BIOS/UEFI",
+  "title": "Proyecto 1.2: Arranque seguro en Linux",
   "summary": "Resumen del CodeLab",
   "source": "codelab.md",
   "theme": "",
@@ -22,5 +22,5 @@
   ],
   "feedback": "Un enlace en el que los usuarios puedan darte feedback (quizás creando un issue en un repositorio de git)",
   "ga": "ID de Google Analytics",
-  "url": "BRS-proyecto-1.1"
+  "url": "BRS-proyecto-1.2"
 }
