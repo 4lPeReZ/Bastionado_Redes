@@ -23,54 +23,56 @@ Como hemos optado por una división por funcionalidad realizaremos la división 
 
 <p align="center"><img src="assets/security_1.png" width="600"></p>
 
-TextoTextoTexto
+Tras un estudio sobre los departamentos que posee nuestra empresa actualmente se han definido las siguientes redes locales virtuales:
+
+### VLANs
+
+Positive
+: VLAN 2 para los servidores de los diferentes servicios.
+
+Positive
+: VLAN 3 para el departamento de Administración.
+
+Positive
+: VLAN 4 para el departamento de Ventas.
+
+Positive
+: VLAN 5 para el departamento de Marketing.
+
+Positive
+: VLAN 6 para el departamento de RRHH.
+
+Positive
+: VLAN 7 para el departamento de Mantenimiento.
 
 ## Cálculo de los direccionamientos de cada VLAN
 
 <p align="center"><img src="assets/security_1.png" width="600"></p>
 
-Mediante VLSM...
+Mediante VLSM hemos realizado el direccionamiento de cada VLAN y hemos obtenido el siguiente resultado:
+
+FOTITO
 
 ## Configuración de VLANs en Switches
 
 <p align="center"><img src="assets/security_1.png" width="600"></p>
 
-TextoTextoTexto
+Para la creación y configuración de las diferentes VLANs nos dirigiremos a nuestro Switch, o varios Switches, y por introducir los siguientes comandos:
+
+FOTITO
+
+Una vez creadas las diferentes VLANs continuaremos con la configuración de cada una de las interfaces comenzando por aquella que este conectada a nuestro router configurandolo en modo trunk, en caso de que hubiera otro switch este tambien se configuraría en modo trunk.
+
+FOTITO
+
+A continuación configuraremos las interfaces que vayan hacia los equipos de las diferentes VLANs en modo access de la siguiente manera:
+
+FOTITO
 
 ## Configuración de Router mediante método router-on-stick
 
 <p align="center"><img src="assets/boot.png" width="600"></p>
 
-TextoTextoTexto
+Una vez configurado el switch, o los switches en el caso de que tengamos más de uno, pasaremos a configurar nuestro router mediante el método router-on-stick de la siguiente manera:
 
-### Métodos más comunes para modificar la BIOS
-
-Algunos de los métodos más comunes para modificar/resetear configuraciones de la BIOS son:
-
-Negative
-: Uso de contraseñas maestras que tienen algunos fabricantes.
-
-Negative
-: Quitar la pila de botón que tiene nuestra placa para borrar la configuración previa de la BIOS.
-
-Negative
-: Hacer un cortocircuito en determinador pines de la placa para el borrado de la configuración de la BIOS.
-
-Negative
-: Algunas placas disponen de un botón físico para el renicio de la configuración de la BIOS.
-
-### Maximizar la seguridad
-
-Para intentar maximizar la seguridad de nuestro dispositivo y permitir el mínimo acceso a la BIOS, entre otras opciones, tendremos en cuenta las siguientes acciones.
-
-Positive
-: Cifrar los discos duros de nuestro ordenador.
-
-Positive
-: Evitar contraseñas genéricas o faciles de adivinar.
-
-Positive
-: Configurar, si se puede, la placa para evitar resets de contraseñas.
-
-Positive
-: Proteger físicamente el acceso mediante carcasas de seguridad con llave.
+FOTITO
