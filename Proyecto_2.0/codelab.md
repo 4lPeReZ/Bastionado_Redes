@@ -11,7 +11,7 @@ analytics account: ID de Google Analytics
 
 ## Introducción
 
-<p align="center"><img src="assets/inicio.png" width="600"></p>
+FOTITO
 
 Segmentar una red es una de las medidas más básicas de seguridad que podemos llevar a cabo en una infraestructura, ya no solo por incrementar su seguridad sino también por su rendimiento y posibilidad de gestión.
 
@@ -21,7 +21,7 @@ Como hemos optado por una división por funcionalidad realizaremos la división 
 
 ## Definición de redes locales virtuales (VLANs)
 
-<p align="center"><img src="assets/security_1.png" width="600"></p>
+FOTITO
 
 Tras un estudio sobre los departamentos que posee nuestra empresa actualmente se han definido las siguientes redes locales virtuales:
 
@@ -47,15 +47,11 @@ Positive
 
 ## Cálculo de los direccionamientos de cada VLAN
 
-<p align="center"><img src="assets/security_1.png" width="600"></p>
-
 Mediante VLSM hemos realizado el direccionamiento de cada VLAN y hemos obtenido el siguiente resultado:
 
 FOTITO
 
 ## Configuración de VLANs en Switches
-
-<p align="center"><img src="assets/security_1.png" width="600"></p>
 
 Para la creación y configuración de las diferentes VLANs nos dirigiremos a nuestro Switch, o varios Switches, y por introducir los siguientes comandos:
 
@@ -71,8 +67,16 @@ FOTITO
 
 ## Configuración de Router mediante método router-on-stick
 
-<p align="center"><img src="assets/boot.png" width="600"></p>
+FOTITO
 
 Una vez configurado el switch, o los switches en el caso de que tengamos más de uno, pasaremos a configurar nuestro router mediante el método router-on-stick de la siguiente manera:
 
-FOTITO
+<p align="center"><img src="assets/image.png" width="600"></p>
+<p align="center"><img src="assets/image_1.png" width="600"></p>
+<p align="center"><img src="assets/image_2.png" width="600"></p>
+<p align="center"><img src="assets/image_3.png" width="600"></p>
+<p align="center"><img src="assets/image_4.png" width="600"></p>
+<p align="center"><img src="assets/image_5.png" width="600"></p>
+<p align="center"><img src="assets/image_6.png" width="600"></p>
+<p align="center"><img src="assets/image_7.png" width="600"></p>
+<p align="center"><img src="assets/image_8.png" width="600"></p>
